@@ -1,0 +1,148 @@
+---
+---
+body {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+section h2 {
+    margin-bottom: 1.5em;
+}
+
+table {
+    padding: 0;
+}
+table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th :first-child, table tr td :first-child {
+    margin-top: 0;
+}
+table tr th :last-child, table tr td :last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron:before {
+    content: '';
+    background: url({{'/img/istaustria_central_building.jpg' | prepend: site.baseurl }}) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 400px;
+}
+
+.jumbotron {
+    margin: 100px 200px 200px 200px;
+    padding: 0;
+    color: white;
+    background: transparent;
+}
+
+.jumbotron span {
+    padding: 0 30px;
+    margin: 0 -30px;
+    background-color: rgb(54, 54, 54);
+    background-color: rgba(54, 54, 54, .5);
+}
+
+/*
+ * people
+ */
+
+#people h3 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#people div.person {
+    margin-bottom: 1em;
+}
+
+#people ul.bio li {
+    margin-bottom: 0.2em;
+}
+
+#people ul.bio .glyphicon {
+    margin-right: 0.5em;
+}
+
+#people ul.bio .btn-link {
+    padding: 0;
+}
+
+#people div.bio {
+    border-top: 1px solid #aaa;
+    margin-top: 0.75em;
+    padding-top: 0.75em;
+}
+
+/*
+ * publications
+ */
+
+#publications ul.authors li {
+    padding: 0;
+}
+
+#publications ul.authors li:after {
+    content: ',';
+}
+
+#publications ul.authors li:last-child:after {
+    content: '';
+}
+
+#publications ul.buttons li {
+    padding: 0;
+}
+
+#publications ul.years {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+}
+
+#publications ul.years li {
+    padding: 0;
+}
+
+#publications ul.years li:after {
+    content: ' | ';
+}
+
+#publications ul.years li:last-child:after {
+    content: '';
+}
+
+.paperthumbnail {
+    box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 14px 0 rgba(0, 0, 0, 0.2);
+    margin: 6px 16px 16px 16px;
+}

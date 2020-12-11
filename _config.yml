@@ -1,0 +1,25 @@
+markdown: kramdown
+permalink: pretty
+future: true # do not hide future dates
+
+collections:
+  people:
+    output: false
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+social:
+  - title: twitter
+    url: https://twitter.com/istaustria
+  - title: facebook
+    url: https://www.facebook.com/ISTAustria
+  - title: github
+    url: http://github.com/istaustria
+  - title: youtube
+    url: https://www.youtube.com/user/ISTAustria
+
+title: ELLIS @ IST Austria
+url: https://ellis.ist.ac.at
+description: "ELLIS unit at IST Austria"
