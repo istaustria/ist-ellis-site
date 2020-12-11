@@ -15,7 +15,7 @@ affiliations:
     url: http://ist.ac.at
 
 publication: NeurIPS 2020
-date: 2020-12
+date: 2020-12-08
 
 paper: https://arxiv.org/abs/2007.06705
 project: https://www.pmh47.net/o3v/
